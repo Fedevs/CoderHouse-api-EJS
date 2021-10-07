@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+    <%- include('templates/head') %>
+    <body>
+        <div class="form-view">
+            <h1>Ingrese un producto</h1>
+            <form class="my-product-form" action="/api/productos" method="POST">
+                <label for="title">Nombre</label>
+                <input type="text" name="title" id="title">
+                <label for="price">Precio</label>
+                <input type="number" name="price" id="price">
+                <label for="thumbnail">Foto URL</label>
+                <input type="text" name="thumbnail" id="thumbnail">
+                <input class="submit-btn" type="submit" value="Enviar">
+            </form>
+        
+            <a class="redirect-btn" href="/productos">Ver productos</a>
+        </div>
+    </body>
+</html>

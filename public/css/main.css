@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* COMUNES */
+.form-view, .products-view {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-view h1, .products-view h1{
+    text-align: center;
+    margin: 20px auto;
+}
+
+.redirect-btn {
+    text-decoration: none;
+    color:cadetblue;
+}
+
+/* FORMULARIO */
+.my-product-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.my-product-form label {
+    font-weight: bold;
+}
+
+.my-product-form input {
+    margin-top: 5px;
+    margin-bottom: 10px;
+    padding: 1px 5px;
+    border-radius: 6px;
+}
+
+.submit-btn {
+    background-color: green;
+    padding: 4px;
+    border-radius: 6px;
+    color: white;
+    font-weight: bold;
+    transition: all .3s ease;
+    cursor: pointer;
+}
+
+.submit-btn:hover {
+    background-color: black;
+}
+
+/* PRODUCTOS */
+
+.product-table {
+    margin-bottom: 10px;
+}
+
+.product-table thead tr th {
+    font-weight: bold;
+    color: white;
+    padding: 10px;
+}
+
+.product-table tbody tr td {
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+
+
+
+
+
+
+
+
